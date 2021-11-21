@@ -1,0 +1,25 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=34:DD:96:08:60:47:DB:43:71:A8:BB:EE:5E:51:60:D3:58:71:00:45%3Bcom.example.vepr
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.example.vepr
+
+    SHA-1 certificate fingerprint:
+    34:DD:96:08:60:47:DB:43:71:A8:BB:EE:5E:51:60:D3:58:71:00:45
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBvL1uIJxTdFRKN2iOicvqzAZu86LhTewc</string>
+    <string name = "mapbox_token"> pk.eyJ1IjoidmVycC1hcHAiLCJhIjoiY2t3N3E3NW1rMTNiaTJ0cDhwOG83eW81diJ9.NQcHmQseYw0vQWL2xDjI_A </string>
+</resources>
