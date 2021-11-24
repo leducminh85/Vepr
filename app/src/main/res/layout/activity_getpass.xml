@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:background="@drawable/yellow_background">
+
+    <ImageView
+        android:layout_width="304dp"
+        android:layout_height="366dp"
+        android:layout_gravity="center|top"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/mainpic" />
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:fontFamily="@font/myfont"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#00643c"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/idEmailGet"
+        android:fontFamily="@font/myfont"
+        android:text=""
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:background="@drawable/whitebackground"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/idButtonget"
+        android:text="get messenger"
+        android:fontFamily="@font/myfont"
+        android:textSize="15dp"
+        android:textColor="#00643c"
+        android:background="@drawable/green_corner_background"/>
+</LinearLayout>

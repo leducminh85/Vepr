@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".change_theme"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            map:cameraZoom="11"
+            tools:context=".change_theme" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="146dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="-4dp"
+            map:srcCompat="@drawable/yellow_background" />
+
+        <Button
+            android:id="@+id/buttonConf"
+            android:layout_width="410dp"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/light_green_background"
+            android:text="Confirm" />
+
+        <Switch
+            android:id="@+id/switchRoad"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="293dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="621dp"
+            android:text="Roads" />
+
+        <Switch
+            android:id="@+id/switchStandard"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="293dp"
+            android:layout_marginTop="279dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="392dp"
+            android:text="Standard" />
+
+        <Switch
+            android:id="@+id/switchLand"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="279dp"
+            android:layout_marginTop="122dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="545dp"
+            android:text="Landmarks" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="99dp"
+            android:layout_height="64dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="317dp"
+            map:srcCompat="@drawable/dark" />
+
+        <Switch
+            android:id="@+id/switchAubergine"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="284dp"
+            android:layout_marginTop="563dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="104dp"
+            android:text="Aubergine" />
+
+        <Switch
+            android:id="@+id/switchDark"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="420dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="260dp"
+            android:text="Dark" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="180dp"
+            map:srcCompat="@drawable/aubergine" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="456dp"
+            map:srcCompat="@drawable/standard" />
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

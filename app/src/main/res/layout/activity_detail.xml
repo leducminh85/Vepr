@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:orientation="vertical"
+    android:layout_margin="0dp"
+    android:padding="0dp"
+    android:background="@drawable/light_yellow_background">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/light_yellow_background"
+        android:src="@drawable/pic"
+        android:id="@+id/idImage"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:background="@drawable/yellow_background"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <TextView
+            android:id="@+id/idDesName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text=""
+            android:fontFamily="@font/myfont"
+            android:textColor="#00643c"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:columnCount="4"
+            android:orientation="horizontal"
+            android:rowCount="2">
+
+            <ImageView
+                android:id="@+id/idDirectionButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/direct"/>
+
+            <ImageView
+                android:id="@+id/idSaveButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/save" />
+
+            <ImageView
+                android:id="@+id/idPhoneButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/phone" />
+
+            <ImageView
+                android:id="@+id/idShareButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/share" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:text="Directions"
+                android:fontFamily="@font/myfont"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:fontFamily="@font/myfont"
+                android:text="Save" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:fontFamily="@font/myfont"
+                android:text="Call" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                android:fontFamily="@font/myfont"
+                android:text="Share" />
+
+        </GridLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/yellow_background_border"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/address"/>
+                    <TextView
+                        android:id="@+id/idDetailAddress"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/myfont"
+                        android:text=""/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/time" />
+                    <TextView
+                        android:id="@+id/idDetailTime"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/myfont"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/phonenumber" />
+                    <TextView
+                        android:id="@+id/idDetailPhone"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/myfont"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/website" />
+                    <TextView
+                        android:id="@+id/idDetailWebsite"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/myfont"
+                        android:padding="10dp"
+                        android:text=""/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/type" />
+                    <TextView
+                        android:id="@+id/idDetailType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/myfont"
+                        android:padding="10dp"
+                        android:text=""/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+</LinearLayout>

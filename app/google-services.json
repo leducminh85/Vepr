@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "170282914943",
+    "project_id": "vepr-5e59a",
+    "storage_bucket": "vepr-5e59a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170282914943:android:b7aaccf34fdae30cc55b4a",
+        "android_client_info": {
+          "package_name": "com.example.vepr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170282914943-mokfn4q1n62lk299jsg220qbbi0723el.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsBgV_MfuZeTJ-MCQWY7sp0XBIKzgHm24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170282914943-mokfn4q1n62lk299jsg220qbbi0723el.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
